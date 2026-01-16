@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors'); // Ensure this is installed!
+const { Pool } = require('pg');
 const app = express();
 
 app.use(cors()); // This must be above ALL app.post/get lines
